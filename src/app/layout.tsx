@@ -6,11 +6,13 @@ import { Header } from "@/_components/Header";
 const geisMarcellus = Marcellus({
   weight: ['400'],
   variable: '--font-marcellus',
+  subsets: ['latin']
 });
 
 const geistRoboto = Roboto({
   weight: ['300', '400', '500', '700'],
   variable: '--font-roboto',
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
