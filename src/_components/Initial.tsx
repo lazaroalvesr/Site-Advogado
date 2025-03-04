@@ -66,7 +66,7 @@ export const Initial = () => {
                                 className="roboto lg:flex hidden md:flex text-[var(--text-title)] md:text-[13px] lg:text-[15px] max-w-[770px] font-light">
                                 Com ética, comprometimento e vasta experiência, oferecemos soluções jurídicas personalizadas para proteger seus direitos, seja em questões trabalhistas individuais ou empresariais.                                </motion.p>
                         </motion.div>
-                        <Link href="/" className="roboto cursor-pointer lg:w-44 w-38 h-10 lg:h-12 items-center justify-center hover:scale-105 flex transition-all lg:text-[20px] text-[14px] uppercase md:text-[18px] .3s ease-in bg-[var(--background-accent)] text-[var(--text-title)] rounded-sm">
+                        <Link href="/" className="roboto cursor-pointer lg:w-44 w-38 h-10 md:w-32 md:h-10 lg:h-12 items-center justify-center hover:scale-105 flex transition-all lg:text-[20px] text-[14px] uppercase md:text-[15px] .3s ease-in bg-[var(--background-accent)] text-[var(--text-title)] rounded-sm">
                             Saiba Mais
                         </Link>
                     </motion.div>
