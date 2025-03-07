@@ -10,8 +10,10 @@ export const ReviewSilderControls = ({ nextSlide, prevSlide, disableNext, disabl
         imagePreviewInNext={prevSlide}
         disableButton={() => !!disablePrev}
         ariaLabel="Slide anterior"
-        children={<ArrowLeft className="w-5 h-5" />}
-      />
+      >
+        <ArrowLeft className="w-5 h-5" />
+      </ButtonControlSlide>
+
       <Link
         href="/"
         className="roboto cursor-pointer lg:w-64 w-52 h-12 md:w-60 md:h-12 items-center justify-center 
@@ -21,9 +23,9 @@ export const ReviewSilderControls = ({ nextSlide, prevSlide, disableNext, disabl
       <ButtonControlSlide
         imagePreviewInNext={nextSlide}
         disableButton={() => !!disableNext}
-        ariaLabel="Próximo slide"
-        children={<ArrowRight className="w-5 h-5" />}
-      />
+        ariaLabel="Próximo slide">
+        <ArrowRight className="w-5 h-5" />
+      </ButtonControlSlide>
     </div>
   )
 }
