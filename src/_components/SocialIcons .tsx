@@ -1,4 +1,4 @@
-import { PropsImage } from "@/interfaces/CustomImage"
+import { PropsImage } from "@/interfaces/CustomImageInterface"
 import Image from "next/image"
 import Link from "next/link"
 

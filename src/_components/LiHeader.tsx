@@ -1,4 +1,4 @@
-import { PropsLiHeader } from "@/interfaces/LiHeader"
+import { PropsLiHeader } from "@/interfaces/LiHeaderInterface"
 import Link from "next/link"
 
 

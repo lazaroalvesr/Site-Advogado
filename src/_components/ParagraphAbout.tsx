@@ -11,7 +11,6 @@ export const ParagraphAbout = ({ texts }: ParagraphAboutProps) => {
         threshold: 0.3,
     });
 
-
     return (
         <div className="flex flex-col gap-[15px] pt-[30px]">
             {texts.map((item, index) => {

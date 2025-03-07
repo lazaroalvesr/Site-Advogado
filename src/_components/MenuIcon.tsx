@@ -1,4 +1,4 @@
-import { MenuIconProps } from "@/interfaces/MenuIcon"
+import { MenuIconProps } from "@/interfaces/MenuIconInterface"
 import Image from "next/image"
 
 export const MenuIcon = ({ src, alt }: MenuIconProps) => {

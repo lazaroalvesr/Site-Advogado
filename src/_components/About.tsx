@@ -14,8 +14,8 @@ const TextAbout = [
 
 export const About = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // A animação é disparada apenas uma vez
-    threshold: 0.3, // A animação é disparada quando 30% do elemento está visível
+    triggerOnce: true,
+    threshold: 0.2,
   })
 
   return (
@@ -48,7 +48,7 @@ export const About = () => {
           </div>
           <div className="lg:w-[707px] md:w-[500px] w-full px-8 md:px-4 lg:px-0 flex flex-col lg:pt-0 md:pt-0 pt-[52px]">
             <motion.h3
-              className="border-b-3 text-[24px] lg:text-[20px] md:text-[16px] w-fit marcellus uppercase text-[var(--text-main)]"
+              className="border-b-3 text-[24px] lg:text-[20px] md:text-[18px] w-fit marcellus uppercase text-[var(--text-main)]"
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: inView ? 1 : 0, x: inView ? 0 : -50 }}
               transition={{ duration: 0.6, ease: "easeOut" }}
@@ -63,10 +63,10 @@ export const About = () => {
             >
               <Link
                 href="/"
-                className="roboto cursor-pointer lg:w-60 mt-8 w-44 h-12 md:w-48 md:h-12 items-center justify-center 
+                className="roboto cursor-pointer lg:w-54 mt-8 w-44 h-12 md:w-48 md:h-12 items-center justify-center 
                 hover:scale-105 flex transition-all duration-300 ease-in-out 
                 bg-[var(--background-secondary)] hover:bg-[var(--background-accent)] 
-                lg:text-[20px] text-[14px] uppercase md:text-[16px] text-[var(--text-title)] 
+                lg:text-[18px] text-[14px] uppercase md:text-[16px] text-[var(--text-title)] 
                 rounded-sm"
               >
                 Agendar Consulta

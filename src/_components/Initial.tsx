@@ -40,7 +40,6 @@ export const Initial = () => {
         }
     }
 
-
     return (
         <section className="bg-[var(--background-secondary)] w-full pt-8 md:pt-0 lg:pt-0 -mt-2 lg:-mt-0 md:-mt-0">
             <div className="lg:max-w-[1300px] md:max-w-[780px] m-auto lg:pt-[44px] md:pt-0">
