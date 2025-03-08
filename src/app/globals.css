@@ -13,6 +13,7 @@
   --text-title: #F7F7F7;
   --text-paragraph: #6D7077;
   --text-subtitle: #1E1E1E;
+  --text-neutral: #DDDDDDDD;
 }
 
 body {
@@ -26,6 +27,22 @@ body {
 
 .roboto {
   font-family: var(--font-roboto);
+}
+
+.liFooter {
+  position: relative;
+  padding-left: 40px;
+}
+
+.liFooter::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: var(--background-accent);
+  position: absolute;
+  left: 0px;
+  bottom: 8px;
 }
 
 .liHeader {
@@ -113,7 +130,7 @@ html {
   background-color: var(--text-subtitle);
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: transparent;
   border-radius: 10px;
 }

@@ -58,8 +58,8 @@ export const Header = () => {
   }, [])
 
   return (
-    <section className={`bg-[var(--background-secondary)] w-full h-full ${isScrolled ? 'pt-[80px]' : ''}`}>
-      <header className="max-w-[1300px] justify-center m-auto items-center pt-[20px]">
+    <header className={`bg-[var(--background-secondary)] w-full h-full ${isScrolled ? 'pt-[80px]' : ''}`}>
+      <div className="max-w-[1300px] justify-center m-auto items-center pt-[20px]">
         <div className={` w-full justify-between pb-[10px] border-b border-b-[#1F3047] lg:flex hidden md:flex md:px-8 lg:px-0  ${isScrolled ? "opacity-0 h-0 overflow-hidden" : "opacity-100"}`}>
           <div className="flex items-center gap-2">
             <Image
@@ -110,7 +110,7 @@ export const Header = () => {
             </nav>
           </div>
         </div>
-      </header>
-    </section>
+      </div>
+    </header>
   )
 }
