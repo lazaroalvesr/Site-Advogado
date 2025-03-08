@@ -106,7 +106,7 @@ export const ClientReviews = () => {
     return (
         <motion.section
             ref={ref}
-            className='max-w-[1300px] lg:mt-[120px] mt-[70px] md:mt-[90px] pb-72 flex items-center flex-col justify-center m-auto'
+            className='max-w-[1300px] lg:my-[106px] mt-[70px] md:mt-[90px] flex items-center flex-col justify-center m-auto'
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 40 }}
             transition={{ duration: 0.8, ease: "easeOut" }}>
