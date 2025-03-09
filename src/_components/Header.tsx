@@ -28,14 +28,11 @@ export const Header = () => {
 
   const toggleMobile = () => {
     if (mobile) {
-      // Iniciando animação de fechamento
       setIsClosing(true);
-      // Mudamos o estado do mobile imediatamente para atualizar o ícone
       setIsMobile(false);
-      // Esperando a animação terminar antes de resetar o estado de fechamento
       setTimeout(() => {
         setIsClosing(false);
-      }, 300); // 300ms = duração da animação
+      }, 300); 
     } else {
       setIsMobile(true);
     }

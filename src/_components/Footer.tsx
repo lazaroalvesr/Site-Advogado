@@ -36,9 +36,9 @@ const LegalTextInfoFooter = [
 
 export const Footer = () => {
     return (
-        <footer className="bg-[var(--background-secondary)] w-full lg:mt-[120px] mt-[70px] md:mt-[90px]">
-            <div className="max-w-[1300px] px-10 pt-[70px] m-auto flex lg:flex-row flex-col md:flex-row md:max-w-[748px] md:flex-wrap gap-[55px] lg:pt-[84px] border-b border-[var(--text-paragraph)] pb-[85px]">
-                <div className="flex flex-col lg:w-[310px] md:w-[401px]">
+        <footer className="relative bg-[var(--background-secondary)] w-full lg:mt-[120px] mt-[70px] md:mt-[90px]">
+            <div className="lg:max-w-[1300px] px-10 pt-[70px] m-auto flex lg:flex-row flex-col md:flex-row md:max-w-[748px] md:flex-wrap lg:flex-nowrap gap-[55px] lg:pt-[84px] border-b border-[var(--text-paragraph)] pb-[85px]">
+                <div className="flex flex-col lg:w-[320px] md:w-[401px]">
                     <Link href="/">
                         <Image
                             src="/icons/Logo.png"

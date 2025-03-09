@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Marcellus, Roboto } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/_components/Header";
+import { WhatsAppButton } from "@/_components/WhatsAppButton";
 
 const geisMarcellus = Marcellus({
   weight: ['400'],
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${geisMarcellus.variable} ${geistRoboto.variable} antialiased`}>
         <Header />
+        <WhatsAppButton />
         {children}
       </body>
     </html>
